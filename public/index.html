@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Rotten Tomatoes Proxy</title>
+   <meta charset='UTF-8'>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="custom.css">
+ </head>
+<body>
+  <div class="navbar" roll="navigation">
+    <div class="pull-right">
+      <a class="header_links" href="#">What's the Tomatometer®</a>
+      <a class="header_links" href="#">Critics</a>
+      <a id="sign-up" class="header_links" href="#">SIGN UP</a>
+      <span class="header_links">|</span>
+      <a id="login" class="header_links" href="#">LOGIN</a>
+    </div>
+    <div class="row">
+      <div id="navbar-brand-column col-sm-13 col-full-xs">
+        <div id="navbar-brand">
+          <a class="header-rt-logo" href="#">
+            <img id="original_rt_logo" src="/img/rtlogo.png" alt="Rotten Tomatoes Logo">
+          </a>
+        </div>
+        <div class="search-box">
+          <input id="search-term" form-controltype="text" name="search" placeholder="Search movies, TV, actors, more...">
+          <span></span>
+          <button id="search-btn" type="submit"></button>
+        </div>
+      </div>
+      <div id="menu col-sm-11 hidden-xs">
+        <a class="menu-header" href="#" role="button">MOVIES & DVDS</a>
+        <a class="menu-header" href="#" role="button">TV</a>
+        <a class="menu-header" href="#" role="button">NEWS</a>
+        <a class="menu-header" href="#" role="button">TICKETS & SHOWTIMES</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="//unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+  <script src="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+ </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "rt_proxy",
+  "version": "1.0.0",
+  "description": "Rotten Tomatoes Proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/number-ape/Rotten_Tomatoes_Tickets_Showtimes_Proxy.git"
+  },
+  "author": "Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/number-ape/Rotten_Tomatoes_Tickets_Showtimes_Proxy/issues"
+  },
+  "homepage": "https://github.com/number-ape/Rotten_Tomatoes_Tickets_Showtimes_Proxy#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
