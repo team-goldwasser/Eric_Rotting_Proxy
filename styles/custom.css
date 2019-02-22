@@ -202,7 +202,7 @@ form {
 #main {
   padding: 0px;
   margin: 0 auto;
-  border: 1px solid transparent;
+  border: none;
   display: block;
   position: relative;
 }
@@ -342,4 +342,18 @@ tbody {
 .view-all:hover {
   color: #53bbf1!important;
   text-decoration: none;
+}
+
+.service-col {
+  background-color: #fff;
+  width: 770px;
+  border: none;
+  overflow: hidden;
+  padding-left: 10px;
+  padding-right: 20px;
+  float: left;
+  min-height: 1px;
+  position: relative;
+  display: block;
+  color: #343434;
 }

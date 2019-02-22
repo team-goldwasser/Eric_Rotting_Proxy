@@ -4,7 +4,7 @@
   "description": "Rotten Tomatoes Proxy",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon ./proxy-server/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/number-ape/Rotten_Tomatoes_Tickets_Showtimes_Proxy#readme",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0"
   }
 }
