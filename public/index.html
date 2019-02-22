@@ -8,7 +8,7 @@
    <link rel="stylesheet" type="text/css" href="custom.css">
  </head>
 <body>
-  <div class="navbar" roll="navigation">
+  <div id="navbar" roll="navigation">
     <div class="pull-right">
       <a class="header_links" href="#">What's the Tomatometer®</a>
       <a class="header_links" href="#">Critics</a>
@@ -16,26 +16,22 @@
       <span class="header_links">|</span>
       <a id="login" class="header_links" href="#">LOGIN</a>
     </div>
-    <div class="row">
-      <div id="navbar-brand-column col-sm-13 col-full-xs">
-        <div id="navbar-brand">
-          <a class="header-rt-logo" href="#">
-            <img id="original_rt_logo" src="/img/rtlogo.png" alt="Rotten Tomatoes Logo">
-          </a>
-        </div>
-        <div class="search-box">
-          <input id="search-term" form-controltype="text" name="search" placeholder="Search movies, TV, actors, more...">
-          <span></span>
-          <button id="search-btn" type="submit"></button>
-        </div>
+    <div id="navbar-brand-column">
+      <div id="navbar-brand">
+        <a href="#">
+          <img id="original_rt_logo" src="/img/rtlogo.png" alt="Rotten Tomatoes Logo">
+        </a>
       </div>
-      <div id="menu col-sm-11 hidden-xs">
-        <a class="menu-header" href="#" role="button">MOVIES & DVDS</a>
-        <a class="menu-header" href="#" role="button">TV</a>
-        <a class="menu-header" href="#" role="button">NEWS</a>
-        <a class="menu-header" href="#" role="button">TICKETS & SHOWTIMES</a>
+      <div id="search-box" class="input group">
+        <input id="search-term" class="form-control" type="text" name="search" placeholder="Search movies, TV, actors, more...">
       </div>
     </div>
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item"><a class="menu-header" href="#" role="button">MOVIES & DVDS</a></li>
+      <li class="list-group-item"><a class="menu-header" href="#" role="button">TV</a></li>
+      <li class="list-group-item"><a class="menu-header" href="#" role="button">NEWS</a></li>
+      <li class="list-group-item"><a class="menu-header" href="#" role="button">TICKETS & SHOWTIMES</a></li>
+    </ul>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
