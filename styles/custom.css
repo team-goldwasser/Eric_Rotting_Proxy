@@ -198,7 +198,7 @@ form {
 
 .sidebar-col {
   background-color: #fff;
-  height: 5688.28px;
+  height: 2325px;
   padding-left: 20px;
   padding-right: 10px;
   width: 330px;
@@ -335,11 +335,11 @@ tbody {
 
 .service-col {
   background-color: #fff;
+  height: 2325px;
   width: 770px;
   border: none;
   overflow: hidden;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-top: 10px;
   float: left;
   min-height: 1px;
   position: relative;
