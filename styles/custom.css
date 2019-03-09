@@ -229,6 +229,7 @@ form {
 .sidebar-content {
   margin: 0 10px;
   opacity: .8;
+  font-size: 14px;
 }
 
 .movie-list {
