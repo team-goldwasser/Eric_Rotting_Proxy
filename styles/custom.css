@@ -260,7 +260,7 @@ tbody {
   cursor: pointer;
   padding: 0;
   display: table-cell;
-  font-size: 13px;
+  font-size: 13px!important;
 }
 
 .mid-col {
@@ -271,7 +271,7 @@ tbody {
   padding-left: 5px;
   font-family: 'Franklin Gothic FS Book',sans-serif;
   display: table-cell;
-  font-size: 13px;
+  font-size: 13px!important;
 }
 
 .right-col {
@@ -283,7 +283,7 @@ tbody {
   width: 65px;
   cursor: pointer;
   display: table-cell;
-  font-size: 13px;
+  font-size: 13px!important;
 }
 
 .movie-link {
@@ -328,7 +328,7 @@ tbody {
 
 .view-all {
   color: #2466d4;
-  font-size: 13px;
+  font-size: 14px!important;
 }
 
 .view-all:hover {
