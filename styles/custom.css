@@ -211,7 +211,7 @@ form {
 
 #sidebar {
   position: relative;
-  width: 300px;
+  width: 300px !important;
   margin: 10px 0;
   border: 1px solid #ddd;
 }
@@ -256,7 +256,7 @@ tbody {
 }
 
 .left-col {
-  width: 70px;
+  width: 60px;
   cursor: pointer;
   padding: 0;
   display: table-cell;
@@ -279,7 +279,7 @@ tbody {
   font-size: 14px;
   text-align: right;
   text-transform: uppercase;
-  width: 70px;
+  width: 65px;
   cursor: pointer;
   display: table-cell;
 }
