@@ -4,7 +4,7 @@
 
 ## Deployement
 AWS: Dockerized Node App
-- http://ec2-54-67-109-163.us-west-1.compute.amazonaws.com:9000/m/black_panther/
+- http://ec2-18-144-66-112.us-west-1.compute.amazonaws.com/m/black_panther/
 
 Cloudfront with improved page load speed
 - http://d1zmgcdrnleg5d.cloudfront.net/m/black_panther/
