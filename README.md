@@ -7,7 +7,7 @@ AWS: Dockerized Node App
 - http://ec2-18-144-66-112.us-west-1.compute.amazonaws.com/m/black_panther/
 
 Cloudfront with improved page load speed
-- http://d1zmgcdrnleg5d.cloudfront.net/m/black_panther/
+- http://daqyaicq3dmxp.cloudfront.net/m/black_panther/
 
 Click any movies in the Top Box Office to update
 
