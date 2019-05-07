@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/number-ape/Rotten_Tomatoes_Tickets_Showtimes_Proxy#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
